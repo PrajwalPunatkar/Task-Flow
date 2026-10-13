@@ -208,3 +208,21 @@ For a manual security check, obtain separate user tokens, create a task with one
 - **Tasks appear in a different Atlas database:** check the database name printed by the backend. A URI without a database path uses the driver's `test` default. The Task collection is named `tasks`.
 - **Frontend cannot reach the API:** check that the backend is running on port 5000, `VITE_API_URL` ends in `/api`, and `CLIENT_URL` matches the Vite origin. Restart Vite after changing client environment variables.
 - **401 responses:** sign in again and confirm the task request includes `Authorization: Bearer <JWT>`.
+
+# AI Development Experience
+
+Code0 was used as an AI-assisted development tool during the development of TaskFlow to accelerate implementation and assist with selected development tasks. I also worked directly on the code, implemented features manually, configured the project, and tested the application's functionality.
+
+## Tasks Supported by Code0
+1. **React UI Development:** Assistance with developing and improving task management components.
+2. **Backend Development:** Assistance with selected Express.js routes and backend functionality.
+3. **Debugging:** Assistance with identifying and resolving implementation issues.
+
+## Manual Development Contributions
+1. **API Development:** Manually implemented and updated API functionality, including create, update, and other task management operations.
+2. **Authentication and Authorization:** Worked on verifying authentication flows and user-specific task access.
+3. **Testing and Debugging:** Manually tested API behavior, task CRUD operations, and access restrictions.
+4. **Project Configuration:** Configured the development environment and managed Git commits and GitHub updates.
+5. **Database Integration:** Manually configured MongoDB connectivity, worked with Mongoose models and schemas, and integrated database operations with backend APIs.
+
+AI assistance helped speed up selected development tasks, while manual implementation, integration, and testing were also part of the development workflow.
