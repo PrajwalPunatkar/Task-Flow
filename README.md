@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TaskFlow
 
 TaskFlow is a MERN task-management application. Users can register and sign in, then manage their own tasks from a responsive React dashboard. The backend uses JWT authentication and scopes task operations to the signed-in user.
@@ -208,3 +209,6 @@ For a manual security check, obtain separate user tokens, create a task with one
 - **Tasks appear in a different Atlas database:** check the database name printed by the backend. A URI without a database path uses the driver's `test` default. The Task collection is named `tasks`.
 - **Frontend cannot reach the API:** check that the backend is running on port 5000, `VITE_API_URL` ends in `/api`, and `CLIENT_URL` matches the Vite origin. Restart Vite after changing client environment variables.
 - **401 responses:** sign in again and confirm the task request includes `Authorization: Bearer <JWT>`.
+=======
+# Task-Flow
+>>>>>>> origin/main
